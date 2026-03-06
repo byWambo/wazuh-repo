@@ -7,9 +7,8 @@ To use the Teams Integration simply add `custom-teams` and `custom-teams.py` int
 Afterwards you need to set the proper permissions and also add a new file:
 ```bash
 touch /var/ossec/logs/custom-teams.py.log
-chown wazuh:wazuh /var/ossec/logs/custom-teams.py
-chown wazuh:wazuh /var/ossec/integrations/custom-teams
-chown wazuh:wazuh /var/ossec/integrations/custom-teams.py
+chown wazuh:wazuh /var/ossec/logs/custom-teams.py.log
+chown wazuh:wazuh /var/ossec/integrations/custom-teams*
 
 chmod +x /var/ossec/integrations/custom-teams*
 ```
